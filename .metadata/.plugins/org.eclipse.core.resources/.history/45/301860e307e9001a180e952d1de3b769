@@ -1,0 +1,49 @@
+
+
+import java.awt.EventQueue;
+import javax.swing.*;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Graphics;
+
+
+
+
+public class ClasePrincipal extends JFrame{
+	private static final long serialVersionUID = 1L;
+	private JPanel contentPane;
+	private JTextField tf1;
+	private JTextField tf2;
+	private JLabel labelResultado;
+	private JButton btnConsultaPorCodigo;
+	private JLabel lbIngreseCodigoDe;
+	private JTextField tf3;
+	//variables de clase de formulario
+	private JTextField tf11;
+	private JTextField tf22;
+	private JLabel labelResultado2;
+	private JButton btnConsultaPorCodigo2;
+	private JTextField tf33;
+	
+	
+		
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

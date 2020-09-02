@@ -1,0 +1,3 @@
+module ProyectoFinCurso {
+	requires java.desktop;
+}
